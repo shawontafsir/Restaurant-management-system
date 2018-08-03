@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<!--
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+-->
+<html>
+    <head>
+        <title>Home Page</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <style>
+            body  {
+                background-color: #cccccc;
+            }
+            ul {
+                list-style-type: none;
+                margin: 0;
+                padding: 0;
+                overflow: hidden;
+                border: 1px solid #e7e7e7;
+                background-color: darkseagreen;
+            }
+            
+            li {
+                float: left;
+            }
+
+            li a {
+                display: block;
+                color: #666;
+                text-align: center;
+                padding: 14px 16px;
+                text-decoration: none;
+            }
+
+            li a:hover:not(.active) {
+                background-color: #ddd;
+            }
+
+            li a.active {
+                color: white;
+                background-color: green;
+            }
+        </style>
+    </head>
+    <body>
+        <h1 style="font-family: cursive" align="center">Special Restaurant</h1>
+        <ul>
+            <li><a class="active" href="index.html">Home</a></li>
+            <li><a href="showFoodList.jsp">Food List</a></li>
+            <li><a href="makeOrder.jsp">Make Order</a></li>
+            <li><a href="logIn.jsp">Log In</a></li>
+            <li><a href="createAccount.jsp">Sign Up</a></li>
+            <li><a href="">About Us</a></li>
+        </ul>
+        
+        <img src="home.jpg" width="1350" height="500">
+    </body>
+</html>
